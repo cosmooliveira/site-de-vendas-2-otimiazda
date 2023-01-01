@@ -110,11 +110,17 @@ button#botao-de-compra{
 
 /* primeira parte com site concluido*/
 
+section.vai-aparecer-em-800px{
+    display: none;
+}
+
 section#primeira-parte-do-main{
     display: flex;
     align-items: center;
+    
 
 }
+
 
 section#primeira-parte-do-main img{
     width: 50%;

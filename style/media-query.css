@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@media (max-width:800px) {
+
+    header
+    {
+        padding: 0px;
+    }
+    
+    header h1#header-do-h1{
+        padding-bottom: 0px;
+        padding-top: 0px;
+        
+    }
+
+   header h2{
+        font-size: 25px;
+   }
+   
+    div.container{
+        flex-direction: column;
+    }
+
+    div#conteudo-de-compras{
+        padding-left: 0px;
+        
+        
+    }
+    button#botao-de-compra{
+        font-size: 30px;
+    }
+
+    div#conteudo-de-compras > p{
+        font-size: 14px;
+    }
+
+    /* header concluido em 800px*/
+
+    .maior-que-800px-desaparece {
+        display: none;
+    }
+   
+    section.vai-aparecer-em-800px{
+        display: flex;
+        align-items: center;
+
+    }
+
+    section.vai-aparecer-em-800px img{
+        width: 50%;
+    }
+    section.vai-aparecer-em-800px h1{
+        display: block;
+        font-size: 30px;
+
+    }
+    section.vai-aparecer-em-800px h2{
+        display: block;
+
+    }
+    /* segunda parte concluida*/
+
+    section#segunda-parte-do-main article > h2{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    
+}
