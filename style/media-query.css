@@ -67,7 +67,7 @@
     
 }
 
-@media (max-width:495) {
+@media (max-width:495px) {
     section.vai-aparecer-em-800px h1{
         display: block;
         font-size: 20px;
@@ -78,5 +78,9 @@
         display: block;
         font-size: 15px;
 
+    }
+
+    header h1#header-do-h1 {
+        font-size: 20px;
     }
 }
