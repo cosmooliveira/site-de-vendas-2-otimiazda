@@ -47,7 +47,7 @@
     }
 
     section.vai-aparecer-em-800px img{
-        width: 50%;
+        width: 40%;
     }
     section.vai-aparecer-em-800px h1{
         display: block;
@@ -58,11 +58,25 @@
         display: block;
 
     }
-    /* segunda parte concluida*/
+    /* 1 section parte concluida*/
 
     section#segunda-parte-do-main article > h2{
         font-size: 35px;
         font-weight: 700;
     }
     
+}
+
+@media (max-width:495) {
+    section.vai-aparecer-em-800px h1{
+        display: block;
+        font-size: 20px;
+
+    }
+
+    section.vai-aparecer-em-800px h2{
+        display: block;
+        font-size: 15px;
+
+    }
 }
